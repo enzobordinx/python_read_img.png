@@ -1,2 +1,1 @@
-# python_read_img.png
-Esse codigo python ira ler um arquivo chamado img.png e transcrever o que estiver escrito nele para o prompt
+This Python script uses the OpenCV and Pytesseract libraries to perform Optical Character Recognition (OCR) on an image. The script first sets the path for the Tesseract data, then reads in an image using OpenCV's imread function. It then runs the OCR process on the image using Pytesseract's image_to_string method, and finally prints out the extracted text. This script can be used for tasks such as extracting text from images of documents, receipts, or other sources where the text is not easily copyable.
